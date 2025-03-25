@@ -4,12 +4,8 @@ import adapter from '@sveltejs/adapter-node';
 const config = {
 	kit: {
 		adapter: adapter(),
-		prerender: { entries: [] },
-		vite: {
-		  server: {
-			cors: true
-		  }
-		}
+		prerender: { entries: [] }
+		
 	}
 };
 
