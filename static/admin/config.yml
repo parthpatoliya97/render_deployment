@@ -721,7 +721,24 @@ collections:
                       - { label: "Role", name: "role", widget: "string" }
                       - { label: "link", name: "link", widget: "string" }
                       - { label: "Image", name: "image", widget: "image" }
+  
+  
+  - label : "ContactUs Section"
+    name: "ContactUs"
 
+    files:
+      - label : "ContactUs Details"
+        name : "ContactUs"
+        file: "content/contactUs.json"
+        fields:
+          - label : "ContactUs Details"
+            name : "ContactUs"
+            widget: "object"
+            fields:
+              - {label : "Title", name: "title", widget: "string"}
+              - {label : "Description", name: "description",widget": "text"}
+              - {label: "Email",name : "email",widget": "string"} 
+             
 
                       
               
